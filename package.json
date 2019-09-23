@@ -1,11 +1,15 @@
 {
   "name": "kafka-node-topic-connector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "wrapper around kafka-node's consumer and producer, privide live stream for working with kafa topic ",
   "main": "src/index.js",
   "scripts": {
     "start:dev": "node src/demo/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandylib/kafka-node-topic-connector.git"
   },
   "keywords": [
     "kafka",
@@ -19,6 +23,10 @@
   ],
   "author": "sandy",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandylib/kafka-node-topic-connector/issues"
+  },
+  "homepage": "https://github.com/sandylib/kafka-node-topic-connector#readme",
   "dependencies": {
     "dotenv": "^8.1.0",
     "ioredis": "^4.14.1",
